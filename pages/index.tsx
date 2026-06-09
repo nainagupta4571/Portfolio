@@ -168,7 +168,7 @@ export default function Home() {
                 </a>
               </motion.div>
 
-               <motion.a {...{ href: "/Chandni_Gupta_SDE.pdf", download: true } as HTMLMotionProps<'a'>}
+               <motion.a {...{ href: "/Chandni Gupta_Resume-3.pdf", download: true } as HTMLMotionProps<'a'>}
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 2.1 }} // Added a delay
@@ -351,6 +351,18 @@ export default function Home() {
                 transition={{ duration: 0.6, delay: 0.2 }}
                 viewport={{ once: false, amount: 0.3 }}
               >
+                <div className="rounded-lg p-6 max-w-3xl mx-auto text-left">
+  <h3 className="text-xl font-semibold text-gray-800 mb-1">Software Engineer Trainee</h3>
+  <p className="text-gray-700 font-medium mb-1">BUSINESSNEXT</p>
+  <p className="text-gray-600 text-sm mb-2">Dec 2025 - Present</p>
+  <ul className="list-disc ml-6 text-gray-700 text-sm space-y-1">
+    <motion.li variants={itemVariants}>Worked on enterprise CRM solutions for lead management and workflow automation.</motion.li>
+    <motion.li variants={itemVariants}>Performed requirement analysis, functional validation, and defect tracking.</motion.li>
+    <motion.li variants={itemVariants}>Executed performance and load testing using JMeter.</motion.li>
+    <motion.li variants={itemVariants}>Analyzed performance reports and identified system bottlenecks.</motion.li>
+    <motion.li variants={itemVariants}>Collaborated with development and QA teams to improve product quality.</motion.li>
+  </ul>
+</div>
                 <div className="rounded-lg p-6 max-w-3xl mx-auto text-left">
                   <h3 className="text-xl font-semibold text-gray-800 mb-1">SDE Intern</h3>
                   <p className="text-gray-700 font-medium mb-1">ACKO</p>
