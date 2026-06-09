@@ -129,7 +129,7 @@ export default function Home() {
                 animate="visible"
                 style={{ display: 'inline-block' }} // Ensure span tags are inline
               >
-                {"I'm "}
+                {"I'm a"}
                 <span className="name-highlight">
                   {"Developer".split("").map((char, index) => (
                     <motion.span key={char + "-" + index} variants={letterVariants}>
