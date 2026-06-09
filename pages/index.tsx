@@ -131,7 +131,7 @@ export default function Home() {
               >
                 {"I'm a"}
                 <span className="name-highlight">
-                  {"Developer".split("").map((char, index) => (
+                  {"a Developer".split("").map((char, index) => (
                     <motion.span key={char + "-" + index} variants={letterVariants}>
                       {char}
                     </motion.span>
