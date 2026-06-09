@@ -122,7 +122,7 @@ export default function Home() {
                 </span>
               </motion.h1>
 
-              {/* NEW: Letter by letter animation for "I'm Developer" */}
+              {/* NEW: Letter by letter animation for "I'm a Developer" */}
               <motion.h2
                 variants={textContainerVariants}
                 initial="hidden"
